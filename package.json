@@ -1,0 +1,49 @@
+{
+    "name": "0x-rollup",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "build": "rollup -c"
+    },
+    "dependencies": {
+        "0x.js": "7.0.2",
+        "body-parser": "^1.19.0",
+        "cli-table": "^0.3.1",
+        "copyfiles": "^2.1.1",
+        "ethereumjs-util": "^6.1.0",
+        "express": "^4.17.1",
+        "http": "^0.0.0",
+        "lodash": "^4.17.15",
+        "ora": "^3.4.0",
+        "rollup-plugin-typescript2": "^0.24.2",
+        "run-s": "^0.0.0",
+        "websocket": "^1.0.29"
+    },
+    "devDependencies": {
+        "@0x/tslint-config": "^3.0.1",
+        "@types/body-parser": "^1.17.1",
+        "@types/express": "^4.17.1",
+        "@types/lodash": "^4.14.137",
+        "@types/websocket": "^0.0.40",
+        "cross-env": "^5.1.4",
+        "download-cli": "^1.0.5",
+        "ethereum-types": "^2.1.4",
+        "ganache-cli": "6.6.0",
+        "make-promises-safe": "^5.0.0",
+        "npm-run-all": "^4.1.2",
+        "rollup": "1.21.2",
+        "rollup-plugin-commonjs": "10.1.0",
+        "rollup-plugin-json": "^4.0.0",
+        "rollup-plugin-node-builtins": "^2.1.2",
+        "rollup-plugin-node-globals": ">=1.4.0",
+        "rollup-plugin-node-resolve": "5.2.0",
+        "rollup-plugin-replace": "^2.2.0",
+        "scrypt": ">=6.0.3",
+        "sha3": ">=1.2.2",
+        "shx": "^0.3.2",
+        "tslint": "5.19.0",
+        "typescript": "3.5.3"
+    },
+    "author": "",
+    "license": "ISC"
+}
